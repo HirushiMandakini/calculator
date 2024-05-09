@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cal</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="container">
+    <table id="calTable">
+        <tr>
+            <td colspan ="4">
+                <input type="text" id="result" value="">
+            </td>
+        </tr>
+        <tr>
+            <td><input type="button" value="C" class="operator"></td>
+            <td><input type="button" value="%" id="percentage" class="operator"></td>
+            <td><input type="button" value="B" id="back" class="operator"></td>
+            <td><input type="button" value="/" class="operator"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" class="number"></td>
+            <td><input type="button" value="8" class="number"></td>
+            <td><input type="button" value="9" class="number"></td>
+            <td><input type="button" value="*" class="operator"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" class="number"></td>
+            <td><input type="button" value="5" class="number"></td>
+            <td><input type="button" value="6" class="number"></td>
+            <td><input type="button" value="-" class="operator"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="3" class="number"></td>
+            <td><input type="button" value="2" class="number"></td>
+            <td><input type="button" value="1" class="number"></td>
+            <td><input type="button" value="+" class="operator"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="+/-" id="toggleSign" class="operator"></td>
+            <td><input type="button" value="0" class="number"></td>
+            <td><input type="button" value="." class="operator"></td>
+            <td><input style="background-color: darkcyan;" type="button" value="=" id="equal"></td>
+        </tr>
+    </table>
+    </div>
+    <script src="/calculator.js"></script>
+</body>
+</html>
